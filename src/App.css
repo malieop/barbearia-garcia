@@ -178,9 +178,19 @@ nav.scrolled {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(ellipse 60% 70% at 70% 40%, rgba(184, 151, 90, 0.07) 0%, transparent 65%),
-    linear-gradient(to bottom, rgba(10, 10, 10, 0.2) 0%, rgba(10, 10, 10, 0.85) 80%, var(--black) 100%);
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(10, 10, 10, 0.75) 0%,
+      rgba(10, 10, 10, 0.45) 35%,
+      rgba(10, 10, 10, 0.85) 80%,
+      var(--black) 100%
+    ),
+    radial-gradient(ellipse 60% 70% at 70% 40%, rgba(184, 151, 90, 0.12) 0%, transparent 65%),
+    url('https://res.cloudinary.com/timatal-ehf/image/upload/h_575/f_webp/companyCoverImages/zv4inecvgtb9gxull56x');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   pointer-events: none;
 }
 
